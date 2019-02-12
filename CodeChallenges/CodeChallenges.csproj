@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{75C2A232-DC76-4A38-B7F2-1075838F6912}</ProjectGuid>
+    <ProjectGuid>{CC0CA294-7400-412B-8239-D8AEF173EE8C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>SoccerStats</RootNamespace>
-    <AssemblyName>SoccerStats</AssemblyName>
+    <RootNamespace>CodeChallenges</RootNamespace>
+    <AssemblyName>CodeChallenges</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -47,11 +47,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="data.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
