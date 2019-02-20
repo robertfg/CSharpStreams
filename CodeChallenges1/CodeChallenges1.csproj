@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{75C2A232-DC76-4A38-B7F2-1075838F6912}</ProjectGuid>
+    <ProjectGuid>{7E8152ED-3C35-439D-92E6-9B57617EA78F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>SoccerStats</RootNamespace>
-    <AssemblyName>SoccerStats</AssemblyName>
+    <RootNamespace>CodeChallenges1</RootNamespace>
+    <AssemblyName>CodeChallenges1</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,28 +45,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GameResult.cs" />
-    <Compile Include="Player.cs" />
-    <Compile Include="scrap\Player1.cs" />
-    <Compile Include="PlayerComparer.cs" />
-    <Compile Include="scrap\Program1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WeatherForecast.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
-    <None Include="players.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="SoccerGameResults.csv">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="data.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
